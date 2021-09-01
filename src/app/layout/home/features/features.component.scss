@@ -1,0 +1,132 @@
+.features{
+  background-color: #fff !important;
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+.features .feature-box {
+  padding: 15px 20px;
+ box-shadow: 2px 3px 3px #e4e3e3;
+  transition: 0.3s;
+ // height: 100%;
+  border-radius: 10px;
+  border:rgb(245, 245, 245) solid 1px;
+  margin-top: 5px;
+}
+
+.features .feature-box h3 {
+  font-size: 18px;
+  color: #252525;
+  font-weight: 300;
+  margin: 0;
+
+}
+
+.features .feature-box i {
+  line-height: 0;
+  color: #38383a;
+  padding: 4px;
+  margin-left: 10px;
+  font-size: 24px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.features .feature-box:hover i {
+  color: #252525;
+}
+
+.features .feture-tabs {
+  margin-top: 120px;
+}
+
+.features .feture-tabs h3 {
+  color: #012970;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .features .feture-tabs h3 {
+    font-size: 28px;
+  }
+}
+
+.features .feture-tabs .nav-pills {
+  border-bottom: 1px solid #eee;
+}
+
+.features .feture-tabs .nav-link {
+  background: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  color: #777;
+  padding: 12px 0;
+  margin-right: 25px;
+  margin-bottom: -2px;
+  border-radius: 0;
+}
+
+.features .feture-tabs .nav-link.active {
+  color: #000;
+  border-bottom: 3px solid #000;
+}
+
+.features .feture-tabs .tab-content p {
+  font-size: 16px;
+  color: #000;
+  font-family: 'IRANSans_Light' !important;
+  text-align: justify;
+  padding: 5px 15px;
+}
+
+.features .feture-tabs .tab-content i {
+  font-size: 24px;
+  line-height: 0;
+  margin-right: 8px;
+  color: #000;
+}
+
+.features .feature-icons {
+  margin-top: 120px;
+}
+
+.features .feature-icons h3 {
+  color: #012970;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .features .feature-icons h3 {
+    font-size: 28px;
+  }
+}
+
+.features .feature-icons .content .icon-box {
+  display: flex;
+}
+
+.features .feature-icons .content .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: #012970;
+}
+
+.features .feature-icons .content .icon-box i {
+  font-size: 44px;
+  line-height: 44px;
+  color: #0245bc;
+  margin-right: 15px;
+}
+
+.features .feature-icons .content .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
