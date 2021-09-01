@@ -2,7 +2,7 @@ import { RouterModule } from '@angular/router';
 import { LayoutRoutingModule } from './layout-routing.module';
 import { SharedModule } from 'primeng/api';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { TeamComponent } from './home/team/TeamComponent.component';
+import { TeamComponent } from './home/team/team.component';
 import { PortfolioComponent } from './home/Portfolio/Portfolio.component';
 import { ContactComponent } from './home/contact/contact.component';
 import { FeaturesComponent } from './home/features/features.component';
